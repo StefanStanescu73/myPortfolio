@@ -3601,29 +3601,45 @@ div.iconTehnology > a {
   font-size: 14px;
 }
 
-div.inner > section.features > article {
-  width: 450px;
-  height: auto;
+span.link {
+  color: red;
+}
+
+span.link:hover {
+  font-weight: bold;
 }
 
 section.features > article {
+  width: 450px;
+  height: auto;
   background-color: #4c5c96;
   font-size: 14px;
-}
-
-section.features > article:hover {
-  transform: scale(1.05);
-  cursor: default;
-}
-
-section.features > article > h3.major {
-  font-size: 16px;
-  font-weight: bold;
+  padding-bottom: 25px;
 }
 
 section.features > article > a.image > img {
   width: 450px;
   height: 190px;
+}
+
+section.features > article > h3.major {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+section.features > article > p {
+  margin-bottom: 15px;
+}
+
+section.features > article > a.btn {
+  border: 1px solid #ffffff;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+section.features > article > a.btn:hover {
+  background-color: #5b6eb5;
 }
 
 p#shortDescription,
